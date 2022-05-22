@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>919</width>
+    <height>663</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>919</width>
+    <height>663</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>919</width>
+    <height>663</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QGroupBox" name="mainGroup">
+   <property name="geometry">
+    <rect>
+     <x>-2</x>
+     <y>0</y>
+     <width>921</width>
+     <height>671</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <widget class="QPushButton" name="btnHistory">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>460</y>
+      <width>691</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>古风隶书字体</family>
+      <pointsize>34</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color:rgb(255, 34, 49,0);color: white;   border-radius: 10px;  border: 2px groove gray; border-style: outset;}
+QPushButton:hover{background-color:rgb(0, 0, 0,100); color: black;}
+QPushButton:pressed{background-color:rgb(132, 158, 162); border-style: inset; }</string>
+    </property>
+    <property name="text">
+     <string>历史记录</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnOrderMusic">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>220</y>
+      <width>121</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>古风隶书字体</family>
+      <pointsize>35</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color:rgb(255, 34, 49,0);color: white;   border-radius: 10px;  border: 2px groove gray; border-style: outset;}
+QPushButton:hover{background-color:rgb(0, 0, 0,100); color: black;}
+QPushButton:pressed{background-color:rgb(132, 158, 162); border-style: inset; }</string>
+    </property>
+    <property name="text">
+     <string>点歌</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnHotMusic">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>130</y>
+      <width>541</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>古风隶书字体</family>
+      <pointsize>35</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color:rgb(255, 34, 49,0);color: white;   border-radius: 10px;  border: 2px groove gray; border-style: outset;}
+QPushButton:hover{background-color:rgb(0, 0, 0,100); color: black;}
+QPushButton:pressed{background-color:rgb(132, 158, 162); border-style: inset; }</string>
+    </property>
+    <property name="text">
+     <string>热歌榜</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labey_title">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>30</y>
+      <width>551</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>古风隶书字体</family>
+      <pointsize>35</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>厚里蟹卡拉OK点歌系统</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="logo">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>101</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="res.qrc">:/res/img/logo1.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bkgMain">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-130</y>
+      <width>941</width>
+      <height>931</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="res.qrc">:/res/img/background1.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSet">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>50</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color:rgb(255, 34, 49,0);color: white;   border-radius: 10px;  border: 2px groove gray; border-style: outset;}
+QPushButton:hover{background-color:rgb(0, 0, 0,100); color: black;}
+QPushButton:pressed{background-color:rgb(132, 158, 162); border-style: inset; }</string>
+    </property>
+    <property name="text">
+     <string>设置</string>
+    </property>
+   </widget>
+   <zorder>bkgMain</zorder>
+   <zorder>btnHistory</zorder>
+   <zorder>btnOrderMusic</zorder>
+   <zorder>btnHotMusic</zorder>
+   <zorder>labey_title</zorder>
+   <zorder>logo</zorder>
+   <zorder>btnSet</zorder>
+  </widget>
+  <widget class="QGroupBox" name="orderMusicGroup">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>921</width>
+     <height>671</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QPushButton" name="btn_orderBack">
+    <property name="geometry">
+     <rect>
+      <x>23</x>
+      <y>33</y>
+      <width>121</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color:rgb(255, 34, 49,0);color: white;   border-radius: 10px;  border-style: outset;}
+QPushButton:hover{background-color:rgb(0, 0, 0,100); color: black;}
+QPushButton:pressed{background-color:rgb(132, 158, 162); border-style: inset; }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/res/img/backIcon.png</normaloff>:/res/img/backIcon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>141</width>
+      <height>101</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bkgOrder">
+    <property name="geometry">
+     <rect>
+      <x>3</x>
+      <y>-1</y>
+      <width>921</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="res.qrc">:/res/img/orderBackground.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="musicListGroup">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>140</y>
+      <width>411</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:2px groove gray;</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QWidget" name="gridLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>-1</x>
+       <y>-1</y>
+       <width>411</width>
+       <height>361</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="musicListLayout"/>
+    </widget>
+   </widget>
+   <widget class="QLineEdit" name="editMusicInfo">
+    <property name="geometry">
+     <rect>
+      <x>263</x>
+      <y>112</y>
+      <width>331</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(0255,255,255,100);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSearch">
+    <property name="geometry">
+     <rect>
+      <x>597</x>
+      <y>111</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color:rgb(255, 34, 49,0);color: white;   border-radius: 10px;  border: 2px groove gray; border-style: outset;}
+QPushButton:hover{background-color:rgb(0, 0, 0,100); color: black;}
+QPushButton:pressed{background-color:rgb(132, 158, 162); border-style: inset; }</string>
+    </property>
+    <property name="text">
+     <string>搜索</string>
+    </property>
+   </widget>
+   <zorder>bkgOrder</zorder>
+   <zorder>btn_orderBack</zorder>
+   <zorder>musicListGroup</zorder>
+   <zorder>editMusicInfo</zorder>
+   <zorder>btnSearch</zorder>
+  </widget>
+  <widget class="QGroupBox" name="musicHisroyGroup">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>921</width>
+     <height>671</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="bkgHistory">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>921</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="res.qrc">:/res/img/historyBackground.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_musHisBack">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>30</y>
+      <width>121</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color:rgb(255, 34, 49,0);color: white;   border-radius: 10px;  border-style: outset;}
+QPushButton:hover{background-color:rgb(0, 0, 0,100); color: black;}
+QPushButton:pressed{background-color:rgb(132, 158, 162); border-style: inset; }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/res/img/backIcon.png</normaloff>:/res/img/backIcon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>141</width>
+      <height>101</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelHistory">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>220</y>
+      <width>471</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>古风隶书字体</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>历史记录：</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="hotMusicGroup">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>921</width>
+     <height>671</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QPushButton" name="btn_hotMusicBack">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>151</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color:rgb(255, 34, 49,0);color: red;   border-radius: 10px; border-style: outset;}
+QPushButton:hover{background-color:rgb(0, 0, 0,100); color: black;}
+QPushButton:pressed{background-color:rgb(132, 158, 162); border-style: inset; }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/res/img/backIconRed.png</normaloff>:/res/img/backIconRed.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>90</width>
+      <height>80</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelHotMusic">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>130</y>
+      <width>511</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>古风隶书字体</family>
+      <pointsize>27</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:yellow;font:</string>
+    </property>
+    <property name="text">
+     <string>热歌榜：
+</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bkgHotMusic">
+    <property name="geometry">
+     <rect>
+      <x>3</x>
+      <y>-1</y>
+      <width>921</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="res.qrc">:/res/img/hotMusicBackground.gif</pixmap>
+    </property>
+   </widget>
+   <zorder>bkgHotMusic</zorder>
+   <zorder>btn_hotMusicBack</zorder>
+   <zorder>labelHotMusic</zorder>
+  </widget>
+  <widget class="QGroupBox" name="setGroup">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>110</y>
+     <width>731</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(0,0,0,150);</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+   <widget class="QPushButton" name="btn_setClose">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>10</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{background-color:rgb(255, 34, 49,0);color: white;   border-radius: 10px;  border: 2px groove gray; border-style: outset;}
+QPushButton:hover{background-color:rgb(0, 0, 0,100); color: black;}
+QPushButton:pressed{background-color:rgb(132, 158, 162); border-style: inset; }</string>
+    </property>
+    <property name="text">
+     <string>关闭</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>40</y>
+      <width>551</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="styleSheet">
+          <string notr="true">color:white;background-color:rgb(255, 34, 49,0);</string>
+         </property>
+         <property name="text">
+          <string>IP</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="editIP">
+         <property name="styleSheet">
+          <string notr="true">color:white;background-color:rgb(255, 34, 49,0);</string>
+         </property>
+         <property name="text">
+          <string>10.4.5.139</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="styleSheet">
+          <string notr="true">color:white;background-color:rgb(255, 34, 49,0);</string>
+         </property>
+         <property name="text">
+          <string>Port</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="editPort">
+         <property name="styleSheet">
+          <string notr="true">color:white;background-color:rgb(255, 34, 49,0);</string>
+         </property>
+         <property name="text">
+          <string>9999</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnRefreshNetwork">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{background-color:rgb(255, 34, 49,0);color: white;   border-radius: 10px;  border: 2px groove gray; border-style: outset;}
+QPushButton:hover{background-color:rgb(0, 0, 0,100); color: black;}
+QPushButton:pressed{background-color:rgb(132, 158, 162); border-style: inset; }</string>
+       </property>
+       <property name="text">
+        <string>更新网络信息</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>70</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">color:white;background-color:rgb(255, 34, 49,0);</string>
+       </property>
+       <property name="text">
+        <string>网络状态：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="networkState">
+       <property name="styleSheet">
+        <string notr="true">color:white;background-color:rgb(255, 34, 49,0);</string>
+       </property>
+       <property name="text">
+        <string>未链接</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <zorder>hotMusicGroup</zorder>
+  <zorder>mainGroup</zorder>
+  <zorder>musicHisroyGroup</zorder>
+  <zorder>orderMusicGroup</zorder>
+  <zorder>setGroup</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

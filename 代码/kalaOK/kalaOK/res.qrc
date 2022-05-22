@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>img/background1.png</file>
+        <file>img/logo1.png</file>
+        <file>img/singer1.png</file>
+        <file>img/singer2.png</file>
+        <file>img/singer3.png</file>
+        <file>img/singer4.png</file>
+        <file>img/singer5.png</file>
+        <file>img/singer6.png</file>
+        <file>img/historyBackground.png</file>
+        <file>img/backIcon.png</file>
+        <file>img/hotMusicBackground.gif</file>
+        <file>img/backIconRed.png</file>
+        <file>img/orderBackground.png</file>
+    </qresource>
+</RCC>
