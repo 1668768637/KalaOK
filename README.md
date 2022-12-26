@@ -1,11 +1,11 @@
 # -OK-
-基于QT图形框架（包括network和mysql模块）
+Based on QT graphics framework (including network and mysql modules)
 
-客户端：基于QT5.9.0，mingw32编译器
-服务器端：基于QT5.9 mscv64 for 2017编译器
+Client: Based on QT5.9.0, mingw32 compiler
+Server-side: Based on QT5.9 mscv64 for 2017 compiler
 
-学校软件工程作业，三天半时间匆匆赶出来的软件，有些不足之处。
-1.服务器的socket只能接受最新的一个socket，也就是说有新的客户端连接之后，服务器就不再保留旧的socket链接。可以使用QList<QTcpSocket>，
-  再改进一下客户端class结构以及通信格式（增加id信息）加以改进。
-2.关于界面切换。
-  有大佬说可以用QStackedWidget来实现流利的界面切换，但是由于时间限制没有深入学习，具体的效果也不太清楚，日后再讨论（说出这句话很可能就没有下次了）
+School software engineering homework, software rushed out in three and a half days, some deficiencies.
+1. The server's socket can only accept the latest socket, which means that after a new client connection, the server no longer retains the old socket link. QList can be used<QTcpSocket>,
+  Further improve the client class structure and communication format (add ID information) to improve.
+2. About interface switching.
+  Some big guys said that you can use QStackedWidget to achieve fluent interface switching, but due to the time limit, there is no in-depth learning, and the specific effect is not very clear, and we will discuss it later (there is probably no next time when you say this sentence)
